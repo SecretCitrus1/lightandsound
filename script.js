@@ -19,6 +19,9 @@ var choice = 0;
 document.getElementById("points").innerHTML = 0;
 document.getElementById("timer").innerHTML = 0;
 document.getElementById("highScore").innerHTML = 0;
+document.getElementById("mistakes").innerHTML = 0;
+
+var mistakes = 0;
 
 function choice1() {
   document.getElementById("difficulty").innerHTML = "Easy Mode";
@@ -171,6 +174,7 @@ function stopTone() {
 
 function lightButton(btn) {
   document.getElementById("button" + btn).classList.add("lit");
+  
 }
 function clearButton(btn) {
   document.getElementById("button" + btn).classList.remove("lit");
@@ -197,7 +201,7 @@ function playClueSequence() {
     }
 
     if (document.getElementById("difficulty").innerHTML == "Easy Mode") {
-      delay += clueHoldTime / 1.1;
+      delay += clueHoldTime /1.1;
       delay += cluePauseTime / 1.1;
     }
 
@@ -255,7 +259,9 @@ function timer() {
         document.getElementById("timer").innerHTML = hardCounter;
       }
       if (hardCounter == -1) {
-        loseGame();
+
+          loseGame();
+        
       }
     }, 1000);
   }
@@ -348,18 +354,32 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
+
+    if (mistakes==2){
     loseGame();
+    }
+    else{
+      stopTimer();
+      playClueSequence();
+    mistakes++
+    document.getElementById("mistakes").innerHTML = mistakes;
+    }
   }
 }
 
 function loseGame() {
+  document.getElementById("mistakes").innerHTML = 0;
+  mistakes = 0;
   highScore();
   stopTimer();
   stopGame();
   alert("Game Over. You lost.");
 }
 function winGame() {
+document.getElementById("mistakes").innerHTML = 0;
+  mistakes = 0;
   highScore();
+  stopTimer();
   stopGame();
   alert("Game Over. You won!");
 }
