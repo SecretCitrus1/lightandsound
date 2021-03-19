@@ -6,7 +6,7 @@ Submitted by: Cyrus Adriel Arellano
 
 Time spent: 32 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/animated-marble-dandelion)
 
 ## Required Functionality
 
@@ -34,7 +34,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [ ] Easy, Medium, Hard difficulties
+- [ ] Point system based off of time
+- [ ] High score
 
 ## Video Walkthrough
 
@@ -50,19 +52,18 @@ Here's a walkthrough of implemented user stories:
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
   
-  A challenge I encountered creating this submission was using setInterval and clearInterval. I had trouble clearing the interval. 
-  I also had trouble clearing the interval every time the user was able to guess it right.
-  I overcomed this obstacle by using websites online and looking at examples on how clearInterval and setInterval was used and how they're connected.
-  
-  
+ A challenge I encountered creating this submission was using setInterval and clearInterval. I had trouble setting the interval. I also had trouble clearing the interval every time the user was able to guess it right. I overcame this obstacle by using a website online and looking at examples on how clearInterval and setInterval was used and how they're connected. Another obstacle that I encountered was the points system and basing it off the time it took the user. I also wanted to include a high score system which was based off of the points system. I overcame this by drawing out the whole point based system so I can visualize it better because it was getting a little confusing when I was working on it. I also had trouble with printing out all of the variables but I overcame this with by rereading the instructions how to do it.
+   
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+  One question I have is how am I able to get other people's points and high scores from people around the world and display it into the screen? Another question I have is there a way to implement other languages so that html helps show it? Furthermore, how are ads used in websites? Also, how are animations made in websites?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-  If I had more time to work on this project, I would add animations in the beginning of the game and the end of the game. 
-  It would have a drop down menu of the list of difficulties and the game over screen would be animated.
+If I had more time to work on this project, I would add animations in the beginning of the game and the end of the game. It would have a drop down menu of the list of difficulties and the game over screen would be animated. Another additional function I would have liked to add is including other people's scores and displaying it on the screen. I would also want to redo the points system and have each difficulty scale with the setInterval. Furthermore, I would want to include better visuals and have the site look better than it being simple.
+
+
 
 
 
