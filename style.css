@@ -1,0 +1,180 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: lightgrey;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  font-size: 25px;
+
+}
+
+body1{
+  
+}
+body5{
+  font-weight: bold;
+  font-family:monospace;
+}
+body7{
+  font-family:monospace;
+  font-weight: bold;
+}
+body8{
+  font-family:monospace;
+  font-weight: bold;
+}
+h1 {
+  font-family:monospace;
+  font-style: italic;
+  color: black;
+}
+
+
+h3{
+  
+}
+
+p{
+    font-family:monospace;
+    font-style: italic;
+   
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#button1 {
+    background: lightgreen;
+}
+
+#button1:active, #button1.lit{
+    background:green;
+}
+
+
+#button2 {
+    background: lightblue;
+}
+#button2:active, #button2.lit{
+    background:blue;
+  
+  
+}
+#button3 {
+    background: pink;
+}
+
+#button3:active, #button3.lit{
+    background:red;
+}
+
+
+#button4 {
+    background: lightyellow;
+}
+#button4:active, #button4.lit {
+    background:yellow;
+}
+
+
+
+#button5 {
+    background: violet;
+}
+#button5:active, #button5.lit {
+    background:purple;
+}
+
+
+
+
+#button6 {
+    background: #7FFFD4;
+}
+#button6:active, #button6.lit {
+    background:#1E90FF;
+}
+
+
+#button7 {
+    background: #F4A460;
+}
+#button7:active, #button7.lit {
+    background:#A0522D;
+}
+
+#button8 {
+    background: #00FF7F;
+}
+#button8:active, #button8.lit {
+    background:#2E8B57;
+}
+
+#button9 {
+    background: #FFFAFA;
+}
+#button9:active, #button9.lit {
+    background:#C0C0C0;
+}
+
+#button10 {
+    background: #87CEEB;
+}
+#button10:active, #button10.lit {
+    background:#4682B4;
+}
+
+#button11 {
+    background: #FF7F50;
+}
+#button11:active, #button11.lit {
+    background:#D2691E;
+}
+
+
+
+#button12 {
+    background: #556B2F;
+}
+#button12:active, #button12.lit {
+    background:#006400;
+}
+
+#button13 {
+    background: #E9967A;
+}
+#button13:active, #button13.lit {
+    background:#FF8C00;
+}
+
+
+#button14 {
+    background:#BA55D3;
+}
+#button14:active, #button14.lit {
+    background:#FF00FF;
+}
+
+
+#button15 {
+    background: #DCDCDC;
+}
+#button15:active, #button15.lit {
+    background:#808080;
+}
+
+
+#button16 {
+    background: #FFD700;
+}
+#button16:active, #button16.lit {
+    background:#DAA520;
+}
